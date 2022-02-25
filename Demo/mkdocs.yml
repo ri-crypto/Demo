@@ -1,1 +1,10 @@
 site_name: My Docs
+
+plugins:
+  - multirepo
+  - git-revision-date-localized:
+      type: timeago
+      timezone: Europe/Amsterdam
+      locale: en
+      fallback_to_build_date: false
+      enable_creation_date: true
